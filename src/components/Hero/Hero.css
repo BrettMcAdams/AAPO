@@ -1,0 +1,44 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    text-align: center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(C:\Users\Brett\Desktop\Projects\all-about-plumbing\src\images\Toilet-repair1.jpg) center center no-repeat;
+}
+
+
+.hero > img {
+    margin-top: 150px;
+    max-width: 90%;
+}
+
+.hero > h2 {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero > p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+}
+
+@media screen and (max-width: 1000px ) {
+    .hero > img {
+        margin-top: 75px;
+    }
+    .hero > h2 {
+        font-size: 2rem;
+    }
+    .hero > p {
+        font-size: 1rem;
+    }
+}
